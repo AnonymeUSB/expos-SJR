@@ -18,3 +18,19 @@
 #crash {
     opacity: 50%;
 }
+
+#v {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    height: 60%;
+    width: 20%;
+}
+
+#g {
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    height: 60%;
+    width: 20%;
+}
