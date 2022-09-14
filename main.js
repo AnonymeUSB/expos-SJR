@@ -1,4 +1,3 @@
-//document.body.style.display = 'none';
 
 var diapo = 1;
 sessionStorage.setItem("diapo", diapo);
@@ -11,8 +10,11 @@ window.addEventListener("keydown", function (event) {
         var diapo = parseInt(sessionStorage.getItem("diapo")) + 1;
         sessionStorage.setItem("diapo", diapo);
 
-        if (diapo == 3){
-            alert("cc");
+        if (parseInt(sessionStorage.getItem("diapo")) == 1){
+            document.getElementById("diapo1").style.display = "block";
+        }
+        if (parseInt(sessionStorage.getItem("diapo")) == 2){
+            document.getElementById("diapo1").style.display = "none";
         }
 
     }
@@ -26,8 +28,11 @@ window.addEventListener("keydown", function (event) {
         }
         sessionStorage.setItem("diapo", diapo);
         
-        if (diapo == 3){
-            alert("cc");
+        if (parseInt(sessionStorage.getItem("diapo")) == 1){
+            document.getElementById("diapo1").style.display = "block";
+        }
+        if (parseInt(sessionStorage.getItem("diapo")) == 2){
+            document.getElementById("diapo1").style.display = "none";
         }
 
     }
