@@ -50,3 +50,155 @@
     top: 10%;
     left: 30%;
 }
+
+#container_q {
+    background:
+    linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+    linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+    linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+    /*overflow-x: hidden;*/
+    position: absolute;
+    height: 80%;
+    width: 70%;
+    top: 10%;
+    left: 15%;
+    border-radius: 20px;
+}
+
+#q1_c {
+    position: absolute;
+    background-color: white;
+    opacity: 70%;
+    width: 40%;
+    height: 40%;
+    left: 5%;
+    top: 5%;
+    border-radius: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#q1 {
+    position: absolute;
+    width: 30%;
+    left: 10%;
+    top: 50%;
+    font-size: 30;
+}
+
+#q1_btn {
+    position: absolute;
+    width: 30%;
+    left: 50%;
+    top: 50%;
+    font-size: 30;
+}
+
+#q1_text{
+    position: absolute;
+    left: 10%;
+    font-size: 30;
+}
+
+#q2_c {
+    position: absolute;
+    background-color: white;
+    opacity: 70%;
+    width: 40%;
+    height: 40%;
+    left: 5%;
+    top: 50%;
+    border-radius: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#q2 {
+    position: absolute;
+    width: 30%;
+    left: 10%;
+    top: 50%;
+    font-size: 30;
+}
+
+#q2_btn {
+    position: absolute;
+    width: 30%;
+    left: 50%;
+    top: 50%;
+    font-size: 30;
+}
+
+#q2_text{
+    position: absolute;
+    left: 10%;
+    font-size: 30;
+}
+
+#q3_c {
+    position: absolute;
+    background-color: white;
+    opacity: 70%;
+    width: 40%;
+    height: 40%;
+    left: 50%;
+    top: 5%;
+    border-radius: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#q3 {
+    position: absolute;
+    width: 30%;
+    left: 10%;
+    top: 50%;
+    font-size: 30;
+}
+
+#q3_btn {
+    position: absolute;
+    width: 30%;
+    left: 50%;
+    top: 50%;
+    font-size: 30;
+}
+
+#q3_text{
+    position: absolute;
+    left: 10%;
+    font-size: 30;
+    top: -10%;
+}
+
+#q4_c {
+    position: absolute;
+    background-color: white;
+    opacity: 70%;
+    width: 40%;
+    height: 40%;
+    left: 50%;
+    top: 50%;
+    border-radius: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#q4 {
+    position: absolute;
+    width: 30%;
+    left: 10%;
+    top: 50%;
+    font-size: 30;
+}
+
+#q4_btn {
+    position: absolute;
+    width: 30%;
+    left: 50%;
+    top: 50%;
+    font-size: 30;
+}
+
+#q4_text{
+    position: absolute;
+    left: 10%;
+    font-size: 30;
+    top: -10%;
+}
