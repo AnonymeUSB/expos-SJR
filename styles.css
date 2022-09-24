@@ -8,7 +8,7 @@
 }
 
 .img_f {
-    position: absolute;
+    position: fixed;
     top: 0%;
     left: 0%;
     height: 100%;
@@ -17,11 +17,12 @@
 
 #crash {
     opacity: 50%;
+    position: fixed;
 }
 
 #v {
     position: absolute;
-    top: 20%;
+    top: 200%;
     left: 50%;
     height: 60%;
     width: 20%;
@@ -29,8 +30,15 @@
 
 #g {
     position: absolute;
-    top: 20%;
+    top: 200%;
     left: 30%;
     height: 60%;
     width: 20%;
+}
+
+#scroll{
+    position: absolute;
+    top: 500%;
+    height: 50%;
+    width: 10%;
 }
