@@ -22,6 +22,12 @@ window.addEventListener("keydown", function (event) {
             document.getElementById("diapo2").style.display = "none";
             document.getElementById("diapo3").style.display = "block";
         }
+        if (parseInt(sessionStorage.getItem("diapo")) == 4){
+            document.getElementById("diapo1").style.display = "none";
+            document.getElementById("diapo2").style.display = "none";
+            document.getElementById("diapo3").style.display = "none";
+            document.getElementById("diapo4").style.display = "block";
+        }
 
     }
     if (event.key == "ArrowLeft"){
@@ -45,6 +51,12 @@ window.addEventListener("keydown", function (event) {
             document.getElementById("diapo1").style.display = "none";
             document.getElementById("diapo2").style.display = "none";
             document.getElementById("diapo3").style.display = "block";
+        }
+        if (parseInt(sessionStorage.getItem("diapo")) == 4){
+            document.getElementById("diapo1").style.display = "none";
+            document.getElementById("diapo2").style.display = "none";
+            document.getElementById("diapo3").style.display = "none";
+            document.getElementById("diapo4").style.display = "block";
         }
 
     }

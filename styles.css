@@ -34,3 +34,19 @@
     height: 60%;
     width: 20%;
 }
+
+#door {
+    position: absolute;
+    height: 80%;
+    width: 40%;
+    top: 10%;
+    left: 30%;
+}
+
+#remembers {
+    position: absolute;
+    height: 80%;
+    width: 40%;
+    top: 10%;
+    left: 30%;
+}
