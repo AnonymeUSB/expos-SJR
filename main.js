@@ -15,6 +15,12 @@ window.addEventListener("keydown", function (event) {
         }
         if (parseInt(sessionStorage.getItem("diapo")) == 2){
             document.getElementById("diapo1").style.display = "none";
+            document.getElementById("diapo2").style.display = "block";
+        }
+        if (parseInt(sessionStorage.getItem("diapo")) == 3){
+            document.getElementById("diapo1").style.display = "none";
+            document.getElementById("diapo2").style.display = "none";
+            document.getElementById("diapo3").style.display = "block";
         }
 
     }
@@ -33,6 +39,12 @@ window.addEventListener("keydown", function (event) {
         }
         if (parseInt(sessionStorage.getItem("diapo")) == 2){
             document.getElementById("diapo1").style.display = "none";
+            document.getElementById("diapo2").style.display = "block";
+        }
+        if (parseInt(sessionStorage.getItem("diapo")) == 3){
+            document.getElementById("diapo1").style.display = "none";
+            document.getElementById("diapo2").style.display = "none";
+            document.getElementById("diapo3").style.display = "block";
         }
 
     }
